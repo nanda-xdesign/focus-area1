@@ -10,11 +10,12 @@ This project addresses the objectives outlined in Focus Area 1 of the QE Cross-S
    
 ### 🧪 **Running the Tests**
 1. Verify that Node.js is installed and the correct version is in use:
-   * `node —version`
+   * `node —-version`
    * `nvm use node`
-3. Navigate to the Playwright tests directory:
+2. Navigate to the Playwright tests directory:
    * `cd ./playwright-tests`
-5. Execute the test suite:
+3. Run `npm install`
+4. Execute the test suite:
    * `npx playwright test candymapper.spec.ts`
 
 ### 📊 Test Reports
